@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Side Notes is the personal portfolio of Aizere Bakytbek, an IT Management student. Explore my skills, projects, and learning journey."
+  >
+
+  <title>Side Notes | Personal Portfolio</title>
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+
+    <div class="container header-content">
+
+      <a href="#about" class="logo">
+        Side Notes
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button
+        type="button"
+        id="theme-toggle"
+        class="theme-toggle"
+        aria-label="Switch to dark mode"
+        aria-pressed="false"
+      > Dark
+      </button>
+
+    </div>
+
+  </header>
+
+  <main>
+    <section id="about" class="section about-section">
+
+      <div class="container">
+
+        <h1 class="section-title">About Me</h1>
+
+        <article class="profile-card">
+
+          <img
+            src="assets/profile.png"
+            alt="Avatar of Aizere Bakytbek"
+            class="profile-image"
+            width="140"
+            height="140"
+          >
+          
+          <div class="profile-content">
+            <h2>Aizere Bakytbek</h2>
+
+            <p class="profile-role">
+            Third-year IT Management student
+            </p>
+
+            <p class="profile-description">
+            Hi! I'm Aizere. As part of my IT Management studies, I am taking a Web Development
+            course where we learn how to design and build websites.
+            This portfolio showcases the practical assignments I have
+            completed while learning HTML, CSS, JavaScript, and React.
+            </p>
+
+          <div class="skills">
+
+            <h3>Web Development Skills</h3>
+
+            <div class="skills-list">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">React</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Git</span>
+            </div>
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <section id="projects" class="section projects-section">
+
+      <div class="container">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <p class="section-description">
+          Here are some of my practical assignments completed
+          during the Web development course.
+          Each project represents a new stage in my learning journey.
+        </p>
+
+
+        <div class="projects-grid">
+
+
+          <article class="card project-card">
+
+            <h3>Week 01 - Web Development Foundations</h3>
+
+            <p>
+              Explored the fundamentals of web development,
+              interactivity, and Git version control.
+              Learned how websites work and how to manage
+              changes using Git and GitHub.
+            </p>
+
+            <a
+              href="https://github.com/abakytbek/iwamad-practice/tree/week-01"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View on GitHub
+            </a>
+
+          </article>
+
+          <article class="card project-card">
+
+            <h3>Week 02 - HTML, CSS & JavaScript Basics</h3>
+
+            <p>
+              Practiced creating web page structures with HTML,
+              styling elements with CSS, and adding basic
+              interactivity using JavaScript.
+            </p>
+
+            <a
+              href="https://github.com/abakytbek/iwamad-practice/tree/week-02"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View on GitHub
+            </a>
+
+          </article>
+
+
+          <article class="card project-card">
+
+            <h3>Week 03 - React Profile Card</h3>
+
+            <p>
+              Created a personal profile card using React
+              and TypeScript. Practiced working with reusable
+              components, props, state, and interactive buttons.
+            </p>
+
+            <a
+              href="https://github.com/abakytbek/iwamad-practice/tree/week-03"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View on GitHub
+            </a>
+
+          </article>
+
+
+          <article class="card project-card">
+
+            <h3>Week 04 - Routing, Context & Testing</h3>
+
+            <p>
+              Expanded the React application by adding
+              multiple pages with React Router, shared state
+              using Context API, and component testing
+              with Vitest.
+            </p>
+
+            <a
+              href="https://github.com/abakytbek/iwamad-practice/tree/week-04"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View on GitHub
+            </a>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="contact" class="section contact-section">
+
+      <div class="container">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <p class="section-description">
+          Have a question or want to get in touch?
+          Feel free to send me a message.
+        </p>
+
+        <div class="contact-info">
+
+          <p>
+            Email:
+            <a href="mailto:aiz_bakytbek@kbtu.kz">
+              aiz_bakytbek@kbtu.kz
+            </a>
+          </p>
+
+          <p>
+            GitHub:
+            <a
+              href="https://github.com/abakytbek"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              My GitHub Profile
+            </a>
+          </p>
+
+        </div>
+
+        <form id="contact-form" novalidate>
+
+          <div class="form-group">
+
+            <label for="name">Full Name</label>
+
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your first and last name"
+              autocomplete="name"
+              required
+              aria-describedby="name-error"
+            >
+
+            <span
+              id="name-error"
+              class="error-message"
+            ></span>
+
+          </div>
+
+          <div class="form-group">
+
+            <label for="email">Email</label>
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your@email.com"
+              autocomplete="email"
+              required
+              aria-describedby="email-error"
+            >
+
+            <span
+              id="email-error"
+              class="error-message"
+            ></span>
+
+          </div>
+
+          <div class="form-group">
+
+            <label for="message">Message</label>
+
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              minlength="3"
+              placeholder="Write your message here.."
+              required
+              aria-describedby="message-error"
+            ></textarea>
+
+            <span
+              id="message-error"
+              class="error-message"
+            ></span>
+
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-primary"
+          >
+            Send Message
+          </button>
+
+          <p
+            id="form-status"
+            role="status"
+            aria-live="polite"
+          ></p>
+
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <p>
+        © 2026 Side Notes. All rights reserved.
+      </p>
+
+    </div>
+
+  </footer>
+
+  <script src="js/theme.js" defer></script>
+  <script src="js/validation.js" defer></script>
+
+</body>
+
+</html>
